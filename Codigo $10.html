@@ -1,0 +1,34 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<title>Generador de codigos de google play</title>
+</head>
+<body>
+<div id="centerdiv">
+<p>$10</p>
+<div id="GPlay">
+</div>
+<div id="gcode">
+<script>
+function makeid(length) {
+   var result           = '';
+   var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890';
+   var charactersLength = characters.length;
+   for ( var i = 0; i < length; i++ ) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+   }
+   return result;
+}
+
+document.write(makeid(4) + "-" + makeid(4) + "-" + makeid(4) + "-" +makeid(4));
+
+function replacecode () {
+location.reload();
+}
+</script>
+</div>
+
+</div>
+<button onclick="replacecode()" />Generar codigo</button>
+</body>
+</html>

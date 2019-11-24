@@ -1,0 +1,102 @@
+body {
+margin: 0;
+}
+
+#centerdiv {
+position: absolute;
+width: 300px;
+height: 150px;
+background-color: black;
+margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+border-radius: 7px;
+}
+
+#gcode {
+position: absolute;
+width: 280px;
+height:27px;
+color: white;
+font-family: sans-serif;
+font-size:22px;
+margin: auto;
+left: 0;
+right: 0;
+bottom: 10;
+}
+
+#GPlay {
+position: absolute;
+width: 60px;
+height: 67px;
+background: url('google-play-logo-7.png');
+background-size: 100%;
+margin: auto;
+left: 0;
+right: 0;
+top:25;
+}
+
+button {
+position: absolute;
+width:110px;
+height: 25px;
+border-color: #0e6500;
+background-color: green;
+outline: none;
+margin: auto;
+left: 0;
+right: 0;
+top: 380px;
+bottom: 190px;
+}
+
+p {
+position: absolute;
+margin: 0;
+right: 5;
+top: 5;
+color: white;
+font-family: sans-serif;
+font-size:22px;
+}
+
+#GPlay2 {
+position: absolute;
+width: 60px;
+height: 67px;
+background: url('google-play-logo-7.png');
+background-size: 100%;
+margin: auto;
+left: 0;
+right: 0;
+top:0;
+bottom:0;
+}
+
+#morestyles {
+margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+
+#morestyles2 {
+margin: auto;
+top: 0;
+bottom: 0;
+left: 0;
+right: 350;
+}
+
+#morestyles3 {
+margin: auto;
+top: 0;
+bottom: 0;
+left: 350;
+right: 0;
+}
